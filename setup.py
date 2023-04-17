@@ -13,5 +13,6 @@ setup(
     packages=['clean_folder'],
     install_requires=[],
     python_requires='>=3.5',
-    include_package_data=True
+    include_package_data=True,
+    entry_points={'console_scripts':[]},
 )
